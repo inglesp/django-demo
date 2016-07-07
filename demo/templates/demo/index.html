@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Django Demo</title>
+  </head>
+  <body>
+    {% if people %}
+    <h1>Found records for {{ num_people }} {{ num_people|pluralize:"person,people" }}</h1>
+    <ul>
+      {% for person in people %}
+      <li>{{ person.name }} ({{ person.date_of_birth }})</li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <h1>Found no records</h1>
+    {% endif %}
+  </body>
+</html>
