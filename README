@@ -64,7 +64,7 @@ in touch!
 
 * In a browser, navigate to http://localhost:8000/.  You should see the text
   "Found no records".
-* Then navigate to http://localhost:8000/admin, and log in using the
+* Then navigate to http://localhost:8000/admin/, and log in using the
   credentials you supplied when you ran the `createsuperuser` command.
 * Click "People", and then "ADD PERSON", and fill out the form and click "SAVE"
   to add a person to the database.
