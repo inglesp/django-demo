@@ -19,10 +19,13 @@ in touch!
 * Run `pip install -r requirements.txt` to install Django.  You should see
   output including:
 
-    Successfully installed Django-1.10.4
+```
+    Successfully installed Django-1.10.3
+```
 
 * Run `python manage.py test`.  You should see output matching:
 
+```
     Creating test database for alias 'default'...
     ..
     ----------------------------------------------------------------------
@@ -58,7 +61,7 @@ in touch!
 
     System check identified no issues (0 silenced).
     July 07, 2016 - 11:13:11
-    Django version 1.10.4, using settings 'demo.settings'
+    Django version 1.10.3, using settings 'demo.settings'
     Starting development server at http://127.0.0.1:8000/
     Quit the server with CONTROL-C.
 
