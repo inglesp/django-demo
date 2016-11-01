@@ -33,9 +33,11 @@ in touch!
 
     OK
     Destroying test database for alias 'default'...
+```
 
 * Run `python manage.py migrate`.  You should see output matching:
 
+```
     Operations to perform:
       Apply all migrations: auth, admin, sessions, demo, contenttypes
     Running migrations:
@@ -53,10 +55,12 @@ in touch!
       Applying auth.0007_alter_validators_add_error_messages... OK
       Applying demo.0001_initial... OK
       Applying sessions.0001_initial... OK
+```
 
 * Run `python manage.py createsuperuser` and answer the questions as prompted.
 * Run `python manage.py runserver`.  You should see output matching:
 
+```
     Performing system checks...
 
     System check identified no issues (0 silenced).
@@ -64,6 +68,7 @@ in touch!
     Django version 1.10.3, using settings 'demo.settings'
     Starting development server at http://127.0.0.1:8000/
     Quit the server with CONTROL-C.
+```
 
 * In a browser, navigate to http://localhost:8000/.  You should see the text
   "Found no records".
